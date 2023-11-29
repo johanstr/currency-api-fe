@@ -1,0 +1,21 @@
+{
+    "name": "sd/mod14_api1",
+    "description": "Software Developer Technical - Module 14 API I",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Api\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Johan Strootman",
+            "email": "johanstr@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
